@@ -1,10 +1,7 @@
-import { config } from 'tailwindcss';
-import forms from '@tailwindcss/forms';
-import typography from '@tailwindcss/typography';
-
-export default {
+// tailwind.config.js
+module.exports = {
+  // Other configurations...
   plugins: [
-    forms,
-    typography,
+    require('@tailwindcss/forms'),
   ],
 };
